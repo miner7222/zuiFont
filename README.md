@@ -44,3 +44,7 @@ The APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
 
 - The change is system-wide and survives reboots until changed again.
 - Only `.ttf` and `.otf` files are accepted.
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).

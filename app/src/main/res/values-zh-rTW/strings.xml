@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">在 ZUI(ZUXOS) 上無需 ROOT 即可變更字型。</string>
+    <string name="current_font">目前：%1$s</string>
+    <string name="default_value">預設</string>
+    <string name="font_file_label">已選字型</string>
+    <string name="no_file_selected">無</string>
+    <string name="pick_font">選擇檔案（.ttf / .otf）</string>
+    <string name="apply_font">套用字型</string>
+    <string name="applying">正在套用…</string>
+    <string name="restoring">正在恢復…</string>
+    <string name="restore_default">恢復預設字型</string>
+    <string name="toast_apply_done">已套用</string>
+    <string name="toast_restore_done">已恢復</string>
+    <string name="toast_error">失敗：%1$s</string>
+    <string name="notice_restart">部分應用程式在重新啟動前可能仍顯示原字型。</string>
+    <string name="err_unsupported">不支援的檔案。請使用 .ttf 或 .otf</string>
+    <string name="err_signature">字型簽章驗證失敗（非有效的 TTF/OTF）</string>
+    <string name="err_stream">無法開啟資料流</string>
+    <string name="err_permission">缺少 %1$s 權限（不是 ZUI 系統？）</string>
+    <string name="err_service">找不到 \'zuithemes\' 服務（僅限 ZUI 系統）</string>
+</resources>

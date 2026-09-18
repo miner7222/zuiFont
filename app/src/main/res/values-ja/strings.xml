@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">ZUI(ZUXOS) のフォントを ROOT なしで変更します。</string>
+    <string name="current_font">現在：%1$s</string>
+    <string name="default_value">既定</string>
+    <string name="font_file_label">選択中のフォント</string>
+    <string name="no_file_selected">なし</string>
+    <string name="pick_font">ファイルを選択（.ttf / .otf）</string>
+    <string name="apply_font">フォントを適用</string>
+    <string name="applying">適用中…</string>
+    <string name="restoring">復元中…</string>
+    <string name="restore_default">既定のフォントを復元</string>
+    <string name="toast_apply_done">適用しました</string>
+    <string name="toast_restore_done">復元しました</string>
+    <string name="toast_error">失敗：%1$s</string>
+    <string name="notice_restart">一部のアプリは再起動するまで以前のフォントのままになる場合があります。</string>
+    <string name="err_unsupported">対応していないファイルです。.ttf / .otf を使用してください</string>
+    <string name="err_signature">フォント署名を確認できません（有効な TTF/OTF ではありません）</string>
+    <string name="err_stream">ストリームを開けません</string>
+    <string name="err_permission">%1$s 権限がありません（ZUI 系 ROM ではありませんか？）</string>
+    <string name="err_service">\'zuithemes\' サービスが見つかりません（ZUI 系 ROM 専用）</string>
+</resources>

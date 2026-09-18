@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="zui.permission.ACCESS_THEME_MANAGER" />
+    <uses-permission android:name="zui.permission.READ_THEMES" />
+    <uses-permission android:name="zui.permission.WRITE_THEMES" />
+
+    <application
+        android:allowBackup="false"
+        android:label="zuiFont"
+        android:theme="@style/Theme.ZuiFont">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="zuiFont">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="font/*" />
+                <data android:mimeType="application/x-font-ttf" />
+                <data android:mimeType="application/x-font-otf" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" android:mimeType="font/*" />
+                <data android:scheme="content" android:mimeType="application/x-font-ttf" />
+                <data android:scheme="content" android:mimeType="application/x-font-otf" />
+                <data android:scheme="file" android:mimeType="font/*" />
+                <data android:scheme="file" android:mimeType="application/x-font-ttf" />
+                <data android:scheme="file" android:mimeType="application/x-font-otf" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

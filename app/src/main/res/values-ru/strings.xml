@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Меняет шрифт на ZUI(ZUXOS) без ROOT.</string>
+    <string name="current_font">Текущий: %1$s</string>
+    <string name="default_value">по умолчанию</string>
+    <string name="font_file_label">Выбранный шрифт</string>
+    <string name="no_file_selected">Не выбран</string>
+    <string name="pick_font">Выбрать файл (.ttf / .otf)</string>
+    <string name="apply_font">Применить шрифт</string>
+    <string name="applying">Применение…</string>
+    <string name="restoring">Восстановление…</string>
+    <string name="restore_default">Восстановить шрифт по умолчанию</string>
+    <string name="toast_apply_done">Применено</string>
+    <string name="toast_restore_done">Восстановлено</string>
+    <string name="toast_error">Не удалось: %1$s</string>
+    <string name="notice_restart">Некоторые приложения могут сохранять прежний шрифт до перезапуска.</string>
+    <string name="err_unsupported">Неподдерживаемый файл. Используйте .ttf или .otf</string>
+    <string name="err_signature">Не удалось проверить подпись шрифта (недействительный TTF/OTF)</string>
+    <string name="err_stream">Не удалось открыть поток</string>
+    <string name="err_permission">Нет разрешения %1$s (это не прошивка ZUI?)</string>
+    <string name="err_service">Служба \'zuithemes\' не найдена (только для прошивок ZUI)</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">在 ZUI(ZUXOS) 上无需 ROOT 即可更改字体。</string>
+    <string name="current_font">当前：%1$s</string>
+    <string name="default_value">默认</string>
+    <string name="font_file_label">已选字体</string>
+    <string name="no_file_selected">无</string>
+    <string name="pick_font">选择文件（.ttf / .otf）</string>
+    <string name="apply_font">应用字体</string>
+    <string name="applying">正在应用…</string>
+    <string name="restoring">正在恢复…</string>
+    <string name="restore_default">恢复默认字体</string>
+    <string name="toast_apply_done">已应用</string>
+    <string name="toast_restore_done">已恢复</string>
+    <string name="toast_error">失败：%1$s</string>
+    <string name="notice_restart">部分应用在重启前可能仍显示原字体。</string>
+    <string name="err_unsupported">不支持的文件。请使用 .ttf 或 .otf</string>
+    <string name="err_signature">字体签名校验失败（不是有效的 TTF/OTF）</string>
+    <string name="err_stream">无法打开数据流</string>
+    <string name="err_permission">缺少 %1$s 权限（不是 ZUI 系统？）</string>
+    <string name="err_service">找不到 \'zuithemes\' 服务（仅限 ZUI 系统）</string>
+</resources>

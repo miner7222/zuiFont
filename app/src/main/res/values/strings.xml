@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Changes fonts on ZUI(ZUXOS) without ROOT.</string>
+    <string name="current_font">Current: %1$s</string>
+    <string name="default_value">Default</string>
+    <string name="font_file_label">Selected font</string>
+    <string name="no_file_selected">None</string>
+    <string name="pick_font">Select file (.ttf / .otf)</string>
+    <string name="apply_font">Apply font</string>
+    <string name="applying">Applying…</string>
+    <string name="restoring">Restoring…</string>
+    <string name="restore_default">Restore default font</string>
+    <string name="toast_apply_done">Applied</string>
+    <string name="toast_restore_done">Restored</string>
+    <string name="toast_error">Failed: %1$s</string>
+    <string name="notice_restart">Some apps may keep the previous font until they are restarted.</string>
+    <string name="err_unsupported">Unsupported file. Use .ttf or .otf</string>
+    <string name="err_signature">Font signature check failed (not a valid TTF/OTF)</string>
+    <string name="err_stream">Unable to open stream</string>
+    <string name="err_permission">Missing permission %1$s (not a ZUI ROM?)</string>
+    <string name="err_service">Service \'zuithemes\' not found (ZUI ROM only)</string>
+</resources>

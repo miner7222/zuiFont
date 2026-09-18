@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">ZUI(ZUXOS)에서 ROOT 없이 글꼴을 변경합니다.</string>
+    <string name="current_font">현재: %1$s</string>
+    <string name="default_value">기본값</string>
+    <string name="font_file_label">선택한 글꼴</string>
+    <string name="no_file_selected">없음</string>
+    <string name="pick_font">파일 선택 (.ttf / .otf)</string>
+    <string name="apply_font">글꼴 적용</string>
+    <string name="applying">적용 중…</string>
+    <string name="restoring">복원 중…</string>
+    <string name="restore_default">기본 글꼴 복원</string>
+    <string name="toast_apply_done">적용됨</string>
+    <string name="toast_restore_done">복원됨</string>
+    <string name="toast_error">실패: %1$s</string>
+    <string name="notice_restart">일부 앱은 재시작 전까지 이전 글꼴이 유지될 수 있습니다.</string>
+    <string name="err_unsupported">지원하지 않는 파일입니다. .ttf / .otf 만 사용하세요</string>
+    <string name="err_signature">글꼴 시그니처 확인 실패 (유효한 TTF/OTF 아님)</string>
+    <string name="err_stream">스트림을 열 수 없습니다</string>
+    <string name="err_permission">%1$s 권한이 없습니다 (ZUI 계열 ROM 아님?)</string>
+    <string name="err_service">\'zuithemes\' 서비스를 찾을 수 없습니다 (ZUI 계열 ROM 전용)</string>
+</resources>
